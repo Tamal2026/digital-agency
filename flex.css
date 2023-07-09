@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navigation Bar start Here */
+.navi{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(213, 200, 183);
+    height: 72px;
+    align-items: center;
+}
+
+.logo{
+    size: 50px;
+}
+.Menu{
+    display: flex;
+    font-size: 18px;
+    list-style: none;
+}
+.menu-item{
+    padding-right: 20px;
+}
+/* Navigation Bar end Here */
+
+
+/* banner section start Here */
+.banner-container{
+    height: 100vh;
+    background-image: url('background.jpg'), 
+    linear-gradient(to right, #7e7373, #5f695fd5);
+    background-blend-mode: overlay;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+
+}
+.banner-info{
+  width: 50%;
+  margin: auto;
+}
+.btn-first{
+background-color: tomato;
+padding: 10px 25px;
+border-radius: 4px;
+border: none;
+
+}
+.Digital{
+    color: red;
+}
+.btn-second{
+    background-color: #00ff00;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+}
+.banner-text{
+    font-size: 28px;
+}
+.text{
+    color: white;
+}
+/* Main-section start here */
+
+
+.service-container{ 
+    height: 100vh;
+    background-color: rgb(17, 15, 15);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+  align-items: center;
+}
+.Service-btn{
+    background-color: #00ff00;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 50px;
+
+}
+.left-container{
+  
+    margin-left: 150px;
+    
+}
+.para{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.Order-list{
+    margin-bottom: 50px;
+}
+.smith-sec{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-right: 1.5px solid red;
+    padding-right: 22px;
+    
+}
+.smith{
+    border-radius: 50px;
+}
+.ser{
+    color: red;
+}
+.sevices{
+    font-size:xx-large;
+}
+.occupation{
+    font-size: small;
+}
+.icon{
+    width:75px ;
+}
+.box{
+    width: 200px;
+    height: 200px;
+   background-color: #fff;
+    color: black;
+    text-align: center;
+}
+.first-two-box{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+.img-sec{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+  
+}
+.call-img{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid white;
+}
+.img-phone{
+    width: 85px;
+    height: auto;
+}
+ .appointment-sec {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ width: 75%;
+ height: 30%;
+margin: auto;
+ background-color: tomato;
+ border-radius: 15px;
+ margin-top: -30px;
+
+ }
+ .appoinment-btn{
+    padding-right: 10px;
+ }
+ .blog-container {
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 200px;
+ }
+
+ 
+ .blog-box{
+    width: 200px;
+    height: 300px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+ }
+ .blog-pic{
+    width: 98%;
+    
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px black;
+ }
+ .img-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+ }
+ .footer-all{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    color: #fff;
+    height: 80vh;
+    background-color: black;
+    padding-top: 50px;
+    
+ }
+ .about-title{
+    padding-right: 50px;
+ }
+ ul li{
+    padding-top: 20px;
+ }
+ ul{
+    padding-top: 20px;
+ }
+ .t{
+    margin-right: 20px;
+ }
+
+
